@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/411_wk4_day2_protected_routes/static/css/main.909db9c4.chunk.css",
+    "main.js": "/411_wk4_day2_protected_routes/static/js/main.71a759ba.chunk.js",
+    "main.js.map": "/411_wk4_day2_protected_routes/static/js/main.71a759ba.chunk.js.map",
+    "runtime~main.js": "/411_wk4_day2_protected_routes/static/js/runtime~main.db29a38d.js",
+    "runtime~main.js.map": "/411_wk4_day2_protected_routes/static/js/runtime~main.db29a38d.js.map",
+    "static/js/2.1adf4a72.chunk.js": "/411_wk4_day2_protected_routes/static/js/2.1adf4a72.chunk.js",
+    "static/js/2.1adf4a72.chunk.js.map": "/411_wk4_day2_protected_routes/static/js/2.1adf4a72.chunk.js.map",
+    "index.html": "/411_wk4_day2_protected_routes/index.html",
+    "precache-manifest.ec703d273187475d601c14c8c2a2513e.js": "/411_wk4_day2_protected_routes/precache-manifest.ec703d273187475d601c14c8c2a2513e.js",
+    "service-worker.js": "/411_wk4_day2_protected_routes/service-worker.js",
+    "static/css/main.909db9c4.chunk.css.map": "/411_wk4_day2_protected_routes/static/css/main.909db9c4.chunk.css.map"
+  }
+}
