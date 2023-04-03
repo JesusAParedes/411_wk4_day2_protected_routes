@@ -24,8 +24,8 @@ const Login = () => {
   const login = (e) => {
     e.preventDefault();
     // set cookie here
-    document.cookie = "loggedIn=true;max-Age=60";
     // set loggedIn = true and max-age = 60*1000 (one minute)
+    document.cookie = cookie.serialize("loggedIn", "true", { maxAge: 60 });
 
     navigate("/");
   };

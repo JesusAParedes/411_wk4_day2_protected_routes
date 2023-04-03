@@ -9,14 +9,13 @@ import Login from './components/Login'
 // Write checkAuth function here
 // Check the cookies for a cookie called "loggedIn"
 const checkAuth = () => {
-    // document.cookie = cookie.serialize("loggedIn", "true", { maxAge: 60 });
+    
     const cookies = cookie.parse(document.cookie);
-    return cookies["loggedIn"] ? true : false;
+    
+    return cookies['loggedIn'] ? true : false;
 };
 
-
 // Write ProtectedRoute function here
-
 const ProtectedRoute = (props) => {
     const { component: Component, ...rest } = props;
 
