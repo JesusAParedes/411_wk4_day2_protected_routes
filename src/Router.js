@@ -21,7 +21,7 @@ const ProtectedRoute = (props) => {
 
     return (
         checkAuth() === true ? 
-        ( <Component { ...rest } /> ) : ( <Navigate to="/login"/>)
+        ( <Component { ...rest } /> ) : ( <Navigate to="/411_wk4_day2_protected_routes/login"/>)
         
     )
 }
@@ -29,10 +29,10 @@ const ProtectedRoute = (props) => {
 const Router = () => {
     return (
         <Routes>
-            <Route path="/" element={<ProtectedRoute component={ Home }/>} />
-            <Route path="/login" element={<Login/>} />
-            <Route path="/about" element={<ProtectedRoute component={ About }/>} />
-            <Route path="/car/:id" element={<ProtectedRoute component={ Car }/>} />
+            <Route path="/411_wk4_day2_protected_routes" element={<ProtectedRoute component={ Home }/>} />
+            <Route path="/411_wk4_day2_protected_routes/login" element={<Login/>} />
+            <Route path="/411_wk4_day2_protected_routes/about" element={<ProtectedRoute component={ About }/>} />
+            <Route path="/411_wk4_day2_protected_routes/car/:id" element={<ProtectedRoute component={ Car }/>} />
         </Routes>
     );
 };
